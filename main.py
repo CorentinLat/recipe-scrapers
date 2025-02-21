@@ -143,10 +143,16 @@ if "porc" in recipe_json["title"].lower() or "saucisse" in recipe_json["title"].
     tags.append({"id": "6a484d30-3ee7-460d-989a-6c74841b8b56", "name": "porc", "slug": "porc"})
 if "potatoe" in recipe_json["title"].lower() or "frite" in recipe_json["title"].lower():
     tags.append({"id": "d6430d9f-a542-4edc-bb16-e7c1bd94fe5c", "name": "frites", "slug": "frites"})
-# if "riz" in recipe_json["title"].lower():
-tags.append({"id": "76086a0c-8c8c-4a5d-aec2-ae75502171b0", "name": "riz", "slug": "riz"})
+if "riz" in recipe_json["title"].lower():
+    tags.append({"id": "76086a0c-8c8c-4a5d-aec2-ae75502171b0", "name": "riz", "slug": "riz"})
 if "risotto" in recipe_json["title"].lower():
     tags.append({"id": "e273ba74-3988-4f62-adc7-21faaf6fe12d", "name": "risotto", "slug": "risotto"})
+if "pâtes" in recipe_json["title"].lower():
+    tags.append({"id": "29c02820-28f8-4408-bc74-39dc0c94fff4", "name": "pâtes", "slug": "pates"})
+if "nouilles" in recipe_json["title"].lower():
+    tags.append({"id": "b41ae17b-862a-42d7-82b0-5b0db2365c96", "name": "nouilles", "slug": "nouilles"})
+if "burger" in recipe_json["title"].lower():
+    tags.append({"id": "c34d6909-fc73-4764-96d8-86b605b5ceb3", "name": "burger", "slug": "burger"})
 
 valid_json = {
     "description": recipe_json["description"],
